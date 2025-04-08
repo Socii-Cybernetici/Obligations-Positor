@@ -1,6 +1,4 @@
-
-{ pkgs, ... }:
-{
+{ pkgs, ... }: {
   # Devenv Docs: https://devenv.sh/basics/
   languages.python.enable = true;
   languages.python.package = pkgs.python3.withPackages (python-pkgs: with python-pkgs; [

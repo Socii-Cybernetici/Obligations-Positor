@@ -1,0 +1,10 @@
+[project]
+name = "obligations-positor"
+version = "0.1.0"
+description = "Obligations Positor Discord Bot"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "discord-py>=2.5.2",
+    "z3-solver>=4.14.1.0",
+]

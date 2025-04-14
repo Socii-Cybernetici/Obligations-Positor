@@ -1,5 +1,8 @@
 { pkgs, ... }: {
   # Devenv Docs: https://devenv.sh/basics/
+  packages = with pkgs; [
+    ruff-lsp
+  ];
   languages.python = {
     enable = true;
     uv = {

@@ -3,10 +3,11 @@ import discord
 import discord.ext.commands as commands
 import dotenv
 import logging
+import asyncio
 
 async def main():
     dotenv.load_dotenv()
-    bot = commands.bot(
+    bot = commands.Bot(
         command_prefix = "!",
         intents = discord.Intents(
             message_content = True,

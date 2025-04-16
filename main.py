@@ -1,5 +1,4 @@
-import discord
-import z3
+from z3 import *
 
 def main():
   print("Goodbye world!")

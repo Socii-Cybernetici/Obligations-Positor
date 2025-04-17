@@ -5,7 +5,7 @@ Written in Python, this project uses the Discord API bindings from [discordpy](h
 ## TLDR Build & Run:
 * Have `uv` python project manager installed in your environment.
 * Create a `.env` file with the variable `DISCORD_BOT_TOKEN` set to  the application token for your discord bot account [If you do not already have a bot created, you must create one yourself.](https://discordpy.readthedocs.io/en/stable/discord.html)
-* Run `uv run main.py`. (First time, this will install python and all dependencies in your project environment.)
+* Run `uv run src/main.py`. (First time, this will install python and all dependencies in your project environment.)
 
 ## Developer Notes: Installing the environment
 Option A: Manually

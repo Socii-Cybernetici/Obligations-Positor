@@ -1,1 +1,5 @@
 *.env
+*.git
+.devenv/
+.venv/
+.direnv/

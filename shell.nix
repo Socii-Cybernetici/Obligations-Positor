@@ -4,11 +4,6 @@
     ruff-lsp
     pyright
   ];
-  languages.python = {
-    enable = true;
-    uv = {
-      enable = true;
-      sync.enable = true;
-    };
-  };
+  languages.python.enable = true;
+  languages.python.uv.enable = true;
 }

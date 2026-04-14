@@ -1,3 +1,5 @@
+Until further notice this project is currently abandoned lol
+
 # Obligations-Positor
 This is a discord bot designed to play a medieval logic game called *Obligiations*, functioning as the positor while you affirm or deny the statements that it generates.
 Written in Python, this project uses the Discord API bindings from [discordpy](https://discordpy.readthedocs.io/en/stable/), and uses Microsoft's logic solver library [z3](https://github.com/Z3Prover/z3)
